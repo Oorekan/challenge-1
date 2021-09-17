@@ -7,7 +7,7 @@ export default function Main() {
     <main>
       <Switch>
         <Route exact path="/" component={HomePage} />
-        <Route exact path="/name-city" component={ResultPage} />
+        <Route exact path="/city/:cityName" component={ResultPage} />
       </Switch>
     </main>
   );
