@@ -18,7 +18,9 @@ export default function Search() {
       .get(
         `http://api.openweathermap.org/geo/1.0/direct?q=${searchValue}&appid=${API_KEY}`
       )
-      .then((res) => setLocalisationValue(res.data));
+      .then((res) => setLocalisationValue(res.data))
+      // eslint-disable-next-line no-console
+      .catch((err) => console.log(err));
   };
 
   return (

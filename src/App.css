@@ -43,7 +43,7 @@ a {
   justify-content: space-around;
   text-align: center;
   background-color: #191970;
-  margin-top: 5vh;
+  margin-top: 7em;
   color: #ffbf00;
   border: 10px solid #4169e1;
 }
@@ -71,7 +71,7 @@ a {
 }
 
 .return {
-  margin-top: 5em;
+  margin-top: 4em;
   color: #ffbf00;
   text-align: center;
   background-color: #191970;
@@ -80,19 +80,17 @@ a {
   animation: pulse 2s infinite;
 }
 
-.day {
+.forecast {
   display: flex;
-  justify-content: space-between;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 20vh;
+  justify-content: center;
+  margin-top: 10em;
 }
 
-.day h1 {
+.forecast h1 {
   color: #ffbf00;
   text-align: center;
   background-color: #191970;
-  width: 200px;
+  width: 500px;
   transform: scale(1);
   animation: pulse 2s infinite;
 }
